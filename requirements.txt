@@ -16,4 +16,7 @@ torchaudio
 torchvision
 tqdm
 zipp
+<<<<<<< HEAD
 fastreid
+=======
+>>>>>>> b6a3ce94ed530a50ebac1f2be0f1fb818daf272f

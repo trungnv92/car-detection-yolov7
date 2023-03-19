@@ -486,8 +486,12 @@ def load_yolor_and_process_each_frame(vid_name, enable_GPU, confidence, assigned
                     xywhs = torch.Tensor(xywh_bboxs)
                     confss = torch.Tensor(confs)
                     
+<<<<<<< HEAD
                     #outputs = deepsort.update(xywhs, confss, oids, im0)
                     outputs = deepsort.update(xywhs, confss, im0)
+=======
+                    outputs = deepsort.update(xywhs, confss, oids, im0)
+>>>>>>> b6a3ce94ed530a50ebac1f2be0f1fb818daf272f
                     if len(outputs) > 0:
                         bbox_xyxy = outputs[:, :4]
                         identities = outputs[:, -2]
